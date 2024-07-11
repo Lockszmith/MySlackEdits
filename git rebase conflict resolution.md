@@ -187,7 +187,7 @@ Source code line 5 for Feature B
 ################################
 commit 01
 commit 02 -- (FeatureA)
-commit 03 -- <FROM>
+commit 03 -- <FROM> (main)
 commit 04 -- HEAD on FeatureB
 commit 05
 commit 06
@@ -232,7 +232,7 @@ Source code line 5 for Feature B
 ################################
 commit 01
 commit 02 -- (FeatureA)
-commit 03
+commit 03 -- (main)
 commit 04 -- <FROM>
 commit 05 -- HEAD on FeatureB
 commit 06
@@ -277,7 +277,7 @@ Source code line 5 for Feature A
 ################################
 commit 01
 commit 02 -- (FeatureA)
-commit 03 -- <FROM>
+commit 03 -- <FROM> (main)
 commit 04
 commit 05
 commit 06 -- HEAD on FeatureC
@@ -316,11 +316,11 @@ Source code line 5 for Feature A
 ################################
 commit 01
 commit 02 -- (FeatureA)
-commit 03 -- <FROM>
+commit 03 -- (main)
 commit 04
 commit 05
-commit 06
-commit 07
+commit 06 -- <FROM>
+commit 07 -- HEAD on FeatureC
 commit 08
 commit 09
 commit 10
@@ -648,7 +648,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMxNTExMTksNTY3OTQ1OTI0LDIwNz
+eyJoaXN0b3J5IjpbLTE2MDYxMjEzOTMsNTY3OTQ1OTI0LDIwNz
 A5NTE0NjYsLTg2NDY4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3
 NTUsMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
 -->
