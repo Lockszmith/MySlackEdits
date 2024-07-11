@@ -1,9 +1,8 @@
 
 
-# Welcome
+# `git rebase` Conflict Resolution Demo
 
-This is `test-git` repo
-The README.md will attempt to document all the commands in sequence.
+This README.md attempts to document a complete transcriptall the commands in sequence.
 
 The purpose is to demonstrate how branching, merging and rebasing work,
 allowing to examine `--theirs` and `--ours` in different situations.
@@ -387,5 +386,5 @@ Add the following content:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzA1Njc0XX0=
+eyJoaXN0b3J5IjpbLTMyNjEyMjYwOCwtODAzMDU2NzRdfQ==
 -->
