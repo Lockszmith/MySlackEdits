@@ -1,5 +1,5 @@
 # MySlackEdits
-My [SlackEdit](https://stackedit.io/app#providerId=githubWorkspace&owner=Lockszmith&repo=MySlackEdits) markdown workspace.
+My [SlackEdit]([StackEdit](https://stackedit.io/app#providerId=githubWorkspace&owner=Lockszmith&repo=MySlackEdits&branch=main)) markdown workspace.
 
 Public documentation I either plan to share with the world (for example: Stack Overflow Q&As, or some GitHub discussions) or just non-private thoughts.
 
@@ -11,5 +11,6 @@ Starting without folders, if I find myself actually working with this more, I'll
 
 Let's see where this takes me.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MTkyNTE1LC0xNjUzMzIwMjE4XX0=
+eyJoaXN0b3J5IjpbODI4MDcyOTIwLDk1ODE5MjUxNSwtMTY1Mz
+MyMDIxOF19
 -->
