@@ -10,9 +10,9 @@ with a focus on what is `--theirs` and `--ours` in different situations.
 
 \* **NOTE**: On a new machine, start with [Git Initial configuraiton](#git-initial-configuraiton) below
 
-```bash-conosle
+```bash-session
 ### Initial commit
-> git init
+boo boo #> git init
 > code README.md
 #>>> Create this README.md file with all of its content
 > git add README.md
@@ -384,5 +384,6 @@ Add the following content:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbMTU3NDg0MzA2LDEzMDc2ODI0NzYsLTgwMz
+A1Njc0XX0=
 -->
