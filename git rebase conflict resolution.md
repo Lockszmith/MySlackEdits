@@ -17,9 +17,6 @@ with a focus on what is `--theirs` and `--ours` in different situations.
 > code source-code.src
 #>>> Add initial source-code.src lines
 ```
-<details><summary>booboo</summary>
-hidden
-</details>
 
 ```bash
 #>>> Set commit HEAD indicator to commit 1
@@ -387,7 +384,42 @@ Add the following content:
 #        cmd = \"C:/Program Files/Microsoft VS Code/Code.exe\" --new-window --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
 ```
 
+
+<details><summary>`source-code.src` content - click to expand</summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+Source code line 1 for Feature B
+Source code line 2 for Feature B
+Source code line 3 for Feature B
+Source code line 3 for Feature B
+Source code line 5 for Feature B
+
+commit 01 -- HEAD
+commit 02
+commit 03
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDY4ODg4LDEyMzczMjM3NzQsLTE3OT
-I0MzA3NTUsMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbMTIyMjk4MjE2MiwtODY0Njg4ODgsMTIzNz
+MyMzc3NCwtMTc5MjQzMDc1NSwxMzA3NjgyNDc2LC04MDMwNTY3
+NF19
 -->
