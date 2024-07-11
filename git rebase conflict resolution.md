@@ -25,7 +25,7 @@ with a focus on what is `--theirs` and `--ours` in different situations.
 # another comment
 
 ################################
-commit 01 -- HEAD
+commit 01 -- HEAD on main
 commit 02
 commit 03
 commit 04
@@ -73,7 +73,7 @@ Source code line 5 for Feature A
 
 ################################
 commit 01 -- FROM
-commit 02 -- HEAD
+commit 02 -- HEAD on FeatureA
 commit 03
 commit 04
 commit 05
@@ -165,6 +165,41 @@ Switched to a new branch 'FeatureB'
 #>>> Add Feature B into source-code
 #>>> Move commit HEAD indicator to commit 4
 ```
+
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+Source code line 1 for Feature B
+Source code line 2 for Feature B
+Source code line 3 for Feature B
+Source code line 3 for Feature B
+Source code line 5 for Feature B
+
+################################
+commit 01 -- HEAD
+commit 02
+commit 03
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
 
 ```bash
 > git add source-code.src
@@ -511,7 +546,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY5MzUwMzIsMjA3MDk1MTQ2NiwtOD
+eyJoaXN0b3J5IjpbLTExMTUwNDkxNjksMjA3MDk1MTQ2NiwtOD
 Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
 NDc2LC04MDMwNTY3NF19
 -->
