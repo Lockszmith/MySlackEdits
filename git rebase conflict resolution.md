@@ -385,7 +385,7 @@ Add the following content:
 ```
 
 <details> Remove this when done with the edit
-<details><summary> <code>source-code.src</code> content - <small>🖱️ click to expand</small></summary>
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
 
 ```txt
 # some comment
@@ -420,7 +420,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTM3MTk1LDIwNzA5NTE0NjYsLTg2ND
-Y4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3NTUsMTMwNzY4MjQ3
-NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzc0MzQyNzksMjA3MDk1MTQ2NiwtOD
+Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
+NDc2LC04MDMwNTY3NF19
 -->
