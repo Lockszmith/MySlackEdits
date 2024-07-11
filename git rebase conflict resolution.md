@@ -72,7 +72,7 @@ Source code line 3 for Feature A with a typo
 Source code line 5 for Feature A
 
 ################################
-commit 01
+commit 01 -- FROM
 commit 02 -- HEAD
 commit 03
 commit 04
@@ -123,6 +123,35 @@ Fast-forward
 #>>> Move commit HEAD indicator to commit 3
 ```
 
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+################################
+commit 01
+commit 02 -- FROM
+commit 03 -- HEAD
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
 ```bash
 > git add source-code.src
 > git commit -m "Additional commit after merging FeatureA into main branch (3)"
@@ -135,6 +164,9 @@ Switched to a new branch 'FeatureB'
 > code source-code.src
 #>>> Add Feature B into source-code
 #>>> Move commit HEAD indicator to commit 4
+```
+
+```bash
 > git add source-code.src
 > git commit -m "Added FeatureB (4)"
 [FeatureB _______] Added FeatureB (4)
@@ -479,7 +511,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzI1Njc1NiwyMDcwOTUxNDY2LC04Nj
-Q2ODg4OCwxMjM3MzIzNzc0LC0xNzkyNDMwNzU1LDEzMDc2ODI0
-NzYsLTgwMzA1Njc0XX0=
+eyJoaXN0b3J5IjpbLTE1MTY5MzUwMzIsMjA3MDk1MTQ2NiwtOD
+Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
+NDc2LC04MDMwNTY3NF19
 -->
