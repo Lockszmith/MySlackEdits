@@ -1,8 +1,6 @@
-
-
 # Understanding `git` Conflict Resolution by Example
 
-Below is an attempt to document a complete transcription of `git` operations with the purpose to demonstrate how _branching_, _merging_ and _rebasing_ work,
+Below is an attempt to document a complete transcript of `git` operations with the purpose to demonstrate how _branching_, _merging_ and _rebasing_ work,
 with a focus on what is `--theirs` and `--ours` in different situations.
 
 > Sequences start with ### and the commit title. It will contain all of
@@ -18,6 +16,12 @@ with a focus on what is `--theirs` and `--ours` in different situations.
 > git add README.md
 > code source-code.src
 #>>> Add initial source-code.src lines
+```
+<details><summary>booboo</summary>
+hidden
+</details>
+
+```bash
 #>>> Set commit HEAD indicator to commit 1
 > git add source-code.src
 > git commit -m "Initial commit (1)"
@@ -384,6 +388,6 @@ Add the following content:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMz
-A3NjgyNDc2LC04MDMwNTY3NF19
+eyJoaXN0b3J5IjpbLTg2NDY4ODg4LDEyMzczMjM3NzQsLTE3OT
+I0MzA3NTUsMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
 -->
