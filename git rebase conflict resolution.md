@@ -452,6 +452,44 @@ commit 12
 
 > code source-code.src
 #>>> Move commit HEAD indicator to commit 9, indicate 8 as 'merged'
+```
+
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+Source code line 1 for Feature B
+Source code line 2 for Feature B
+Source code line 3 for Feature B
+Source code line 3 for Feature B
+Source code line 5 for Feature B
+
+################################
+commit 01
+commit 02 -- (FeatureA)
+commit 03 -- (main)
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08 -- <FROM>
+commit 09 -- HEAD on main
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
+```bash
 > git add source-code.src
 > git commit -m "Commit on main after mreging FeatureB (9)"
 [FeatureC _______] Commit on main after mreging FeatureB (9)
@@ -662,7 +700,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTM4NjMzNywtMTYwNjEyMTM5Myw1Nj
+eyJoaXN0b3J5IjpbMTkxMTQ4NzY0NCwtMTYwNjEyMTM5Myw1Nj
 c5NDU5MjQsMjA3MDk1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3
 NCwtMTc5MjQzMDc1NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
 -->
