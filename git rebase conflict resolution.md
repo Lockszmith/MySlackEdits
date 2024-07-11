@@ -18,6 +18,29 @@ with a focus on what is `--theirs` and `--ours` in different situations.
 #>>> Add initial source-code.src lines
 ```
 
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+################################
+commit 01 -- HEAD
+commit 02
+commit 03
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
 ```bash
 #>>> Set commit HEAD indicator to commit 1
 > git add source-code.src
@@ -42,6 +65,19 @@ Switched to a new branch 'FeatureA'
 # some comment
 # another comment
 
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+Source code line 1 for Feature B
+Source code line 2 for Feature B
+Source code line 3 for Feature B
+Source code line 3 for Feature B
+Source code line 5 for Feature B
+
+################################
 commit 01
 commit 02 -- HEAD
 commit 03
@@ -428,6 +464,7 @@ Source code line 3 for Feature B
 Source code line 3 for Feature B
 Source code line 5 for Feature B
 
+################################
 commit 01 -- HEAD
 commit 02
 commit 03
@@ -445,7 +482,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyOTUzODQwLDIwNzA5NTE0NjYsLTg2ND
-Y4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3NTUsMTMwNzY4MjQ3
-NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbLTEwNjM5MzQyNDMsMjA3MDk1MTQ2NiwtOD
+Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
+NDc2LC04MDMwNTY3NF19
 -->
