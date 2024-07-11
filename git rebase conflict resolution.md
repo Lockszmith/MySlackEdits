@@ -260,6 +260,38 @@ Switched to a new branch 'FeatureC'
 > code source-code.src
 #>>> Fix typo in source-code.src (FeatureA)
 #>>> Move commit HEAD indicator to commit 6
+```
+
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 4 for Feature A (type fixed)
+Source code line 5 for Feature A
+
+################################
+commit 01
+commit 02 -- (FeatureA)
+commit 03 -- <FROM>
+commit 04
+commit 05
+commit 06 -- HEAD on FeatureC
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
+```bash
 > git add source-code.src
 > git commit -m "FeatureA code fixed (6)"
 [FeatureC _______] FeatureA code fixed
@@ -267,6 +299,38 @@ Switched to a new branch 'FeatureC'
 
 > code source-code.src
 #>>> Move commit HEAD indicator to commit 7
+```
+
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 4 for Feature A (type fixed)
+Source code line 5 for Feature A
+
+################################
+commit 01
+commit 02 -- (FeatureA)
+commit 03 -- <FROM>
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
+```bash
 > git add source-code.src
 > git commit -m "Additional commit in FeatureC (7)"
 [FeatureC _______] Additional commit in FeatureC (7)
@@ -584,7 +648,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTM4MTYzMSw1Njc5NDU5MjQsMjA3MD
-k1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1
-NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
+eyJoaXN0b3J5IjpbLTEwOTMxNTExMTksNTY3OTQ1OTI0LDIwNz
+A5NTE0NjYsLTg2NDY4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3
+NTUsMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
 -->
