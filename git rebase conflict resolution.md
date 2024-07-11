@@ -405,7 +405,44 @@ Not committing merge; use 'git commit' to complete the merge.
 
 # To see all staged changes, run:
 > git diff --staged
+```
 
+<details><summary> <code>source-code.src</code> merged content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+Source code line 1 for Feature A
+Source code line 2 for Feature A
+Source code line 3 for Feature A
+Source code line 3 for Feature A with a typo
+Source code line 5 for Feature A
+
+Source code line 1 for Feature B
+Source code line 2 for Feature B
+Source code line 3 for Feature B
+Source code line 3 for Feature B
+Source code line 5 for Feature B
+
+################################
+commit 01 ???????????
+commit 02 ???????????
+commit 03 ???????????
+commit 04 ???????????
+commit 05 ???????????
+commit 06 ???????????
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
+```bash
 # When ready to continue commit if you use `--no-edit`, the default
 # merge message will be used, otherwise you'll be prompted to edit
 # the commit message (or you can use `--message/-m`)
@@ -625,7 +662,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTA3MTE1MiwtMTYwNjEyMTM5Myw1Nj
+eyJoaXN0b3J5IjpbLTM0MTM4NjMzNywtMTYwNjEyMTM5Myw1Nj
 c5NDU5MjQsMjA3MDk1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3
 NCwtMTc5MjQzMDc1NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
 -->
