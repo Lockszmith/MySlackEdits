@@ -2,8 +2,8 @@
 
 # Understanding `git` Conflict Resolution by Example
 
-Below is an attempt to document a complete transcription of `git` operations with the purpose to demonstrate how _branching_, _merging_ and _rebasing work,
-allowing to examine `--theirs` and `--ours` in different situations.
+Below is an attempt to document a complete transcription of `git` operations with the purpose to demonstrate how _branching_, _merging_ and _rebasing_ work,
+with a focus on what is `--theirs` and `--ours` in different situations.
 
 > Sequences start with ### and the commit title. It will contain all of
 > the commands included in the commit.
@@ -384,5 +384,5 @@ Add the following content:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTY2MTcyOCwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
 -->
