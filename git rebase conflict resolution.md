@@ -71,12 +71,6 @@ Source code line 3 for Feature A
 Source code line 3 for Feature A with a typo
 Source code line 5 for Feature A
 
-Source code line 1 for Feature B
-Source code line 2 for Feature B
-Source code line 3 for Feature B
-Source code line 3 for Feature B
-Source code line 5 for Feature B
-
 ################################
 commit 01
 commit 02 -- HEAD
@@ -127,6 +121,9 @@ Fast-forward
 > git diff main FeatureA --name-status
 > code source-code.src
 #>>> Move commit HEAD indicator to commit 3
+```
+
+```bash
 > git add source-code.src
 > git commit -m "Additional commit after merging FeatureA into main branch (3)"
 [main _______] Additional commit after merging FeatureA into main branch (3)
@@ -482,7 +479,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM5MzQyNDMsMjA3MDk1MTQ2NiwtOD
-Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
-NDc2LC04MDMwNTY3NF19
+eyJoaXN0b3J5IjpbMTU4NzI1Njc1NiwyMDcwOTUxNDY2LC04Nj
+Q2ODg4OCwxMjM3MzIzNzc0LC0xNzkyNDMwNzU1LDEzMDc2ODI0
+NzYsLTgwMzA1Njc0XX0=
 -->
