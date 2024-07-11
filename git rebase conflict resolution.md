@@ -384,7 +384,7 @@ Add the following content:
 #        cmd = \"C:/Program Files/Microsoft VS Code/Code.exe\" --new-window --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
 ```
 
-
+<details> Remove this when done with the edit
 <details><summary>`source-code.src` content - click to expand</summary>
 
 ```txt
@@ -418,8 +418,9 @@ commit 12
 ```
 
 </details>
+</details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjk4MjE2MiwtODY0Njg4ODgsMTIzNz
+eyJoaXN0b3J5IjpbMjA3MDk1MTQ2NiwtODY0Njg4ODgsMTIzNz
 MyMzc3NCwtMTc5MjQzMDc1NSwxMzA3NjgyNDc2LC04MDMwNTY3
 NF19
 -->
