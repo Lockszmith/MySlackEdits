@@ -72,7 +72,7 @@ Source code line 3 for Feature A with a typo
 Source code line 5 for Feature A
 
 ################################
-commit 01 -- FROM
+commit 01 -- <FROM>
 commit 02 -- HEAD on FeatureA
 commit 03
 commit 04
@@ -137,7 +137,7 @@ Source code line 5 for Feature A
 
 ################################
 commit 01
-commit 02 -- FROM (FeatureA) merged into main
+commit 02 -- (FeatureA) merged into main <FROM>
 commit 03 -- HEAD on main
 commit 04
 commit 05
@@ -185,9 +185,9 @@ Source code line 3 for Feature B
 Source code line 5 for Feature B
 
 ################################
-commit 01 -- HEAD
-commit 02
-commit 03
+commit 01
+commit 02 -- (FeatureA) merged into main <FROM>
+commit 03 -- HEAD on main
 commit 04
 commit 05
 commit 06
@@ -546,7 +546,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3OTQ1OTI0LDIwNzA5NTE0NjYsLTg2ND
-Y4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3NTUsMTMwNzY4MjQ3
-NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbLTg1Njc3MTQwNyw1Njc5NDU5MjQsMjA3MD
+k1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1
+NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
 -->
