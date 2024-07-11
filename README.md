@@ -1,5 +1,5 @@
 # MySlackEdits
-My SlackEdit markdown [workspace](https://stackedit.io/app#providerId=githubWorkspace&owner=Lockszmith&repo=MySlackEdits&branch=main).
+My [SlackEdit](https://stackedit.io/app#providerId=githubWorkspace&owner=Lockszmith&repo=MySlackEdits) markdown workspace.
 
 Public documentation I either plan to share with the world (for example: Stack Overflow Q&As, or some GitHub discussions).
 
@@ -10,5 +10,5 @@ I really like the idea of having `git` as the backend, as I tend to change thing
 Starting without folders, if I find myself actually working with this more, I'll probably start using a folder structure - either based on topic or 'publishing destination'.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwODI0NTM0XX0=
+eyJoaXN0b3J5IjpbLTE2NTMzMjAyMThdfQ==
 -->
