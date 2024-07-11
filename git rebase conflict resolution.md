@@ -404,30 +404,7 @@ error: there was a problem with the editor 'vi'
 Not committing merge; use 'git commit' to complete the merge.
 
 # To see all staged changes, run:
-> git diff --staged                             
-diff --git a/source-code.src b/source-code.src
-index _______.._______ 100644
---- a/source-code.src
-+++ b/source-code.src
-@@ -7,11 +7,17 @@ Source code line 3 for Feature A
- Source code line 4 for Feature A (typo fixed)
- Source code line 5 for Feature A
-
-+Source code line 1 for Feature B
-+Source code line 2 for Feature B
-+Source code line 3 for Feature B
-+Source code line 3 for Feature B
-+Source code line 5 for Feature B
-+
- commit 01
- commit 02         (FeatureA)
- commit 03
- commit 04
--commit 05
-+commit 05 -- HEAD (FeatureB)
- commit 06
- commit 07 -- HEAD (FeatureC)
- commit 08
+> git diff --staged
 
 # When ready to continue commit if you use `--no-edit`, the default
 # merge message will be used, otherwise you'll be prompted to edit
@@ -648,7 +625,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYxMjEzOTMsNTY3OTQ1OTI0LDIwNz
-A5NTE0NjYsLTg2NDY4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3
-NTUsMTMwNzY4MjQ3NiwtODAzMDU2NzRdfQ==
+eyJoaXN0b3J5IjpbMTAxMTA3MTE1MiwtMTYwNjEyMTM5Myw1Nj
+c5NDU5MjQsMjA3MDk1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3
+NCwtMTc5MjQzMDc1NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
 -->
