@@ -34,6 +34,31 @@ Switched to a new branch 'FeatureA'
 > code source-code.src
 #>>> Add First feature A into source-code
 #>>> Move commit HEAD indicator to commit 2
+```
+
+<details><summary> <code>source-code.src</code> content <small><sup>-🖱️</sup><sub> click to expand</sub></small></summary>
+
+```txt
+# some comment
+# another comment
+
+commit 01
+commit 02 -- HEAD
+commit 03
+commit 04
+commit 05
+commit 06
+commit 07
+commit 08
+commit 09
+commit 10
+commit 11
+commit 12
+```
+
+</details>
+
+```bash
 > git add source-code.src
 > git commit -m "Added FeatureA (with a typo) (2)"
 [FeatureA _______] Added FeatureA (with a typo) (2)
@@ -420,7 +445,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc0MzQyNzksMjA3MDk1MTQ2NiwtOD
-Y0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1NSwxMzA3Njgy
-NDc2LC04MDMwNTY3NF19
+eyJoaXN0b3J5IjpbNTEyOTUzODQwLDIwNzA5NTE0NjYsLTg2ND
+Y4ODg4LDEyMzczMjM3NzQsLTE3OTI0MzA3NTUsMTMwNzY4MjQ3
+NiwtODAzMDU2NzRdfQ==
 -->
