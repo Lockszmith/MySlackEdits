@@ -186,9 +186,9 @@ Source code line 5 for Feature B
 
 ################################
 commit 01
-commit 02 -- (FeatureA) merged into main <FROM>
-commit 03 -- HEAD on main
-commit 04
+commit 02 -- (FeatureA)
+commit 03 -- <FROM>
+commit 04 -- HEAD on FeatureB
 commit 05
 commit 06
 commit 07
@@ -546,7 +546,7 @@ commit 12
 </details>
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Njc3MTQwNyw1Njc5NDU5MjQsMjA3MD
+eyJoaXN0b3J5IjpbLTgxOTExMjcyMyw1Njc5NDU5MjQsMjA3MD
 k1MTQ2NiwtODY0Njg4ODgsMTIzNzMyMzc3NCwtMTc5MjQzMDc1
 NSwxMzA3NjgyNDc2LC04MDMwNTY3NF19
 -->
